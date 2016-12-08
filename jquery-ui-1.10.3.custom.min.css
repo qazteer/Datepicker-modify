@@ -1,0 +1,41 @@
+
+.slider {
+    background: #8bc28f none repeat scroll 0 0;
+    height: 2px;
+    margin: 30px auto 0;
+    padding: 0;
+    position: relative;
+    width: 200px;
+}
+
+
+.ui-slider-handle {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    height: 10px;
+    margin-left: -5px;
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    z-index: 200;
+}
+
+.ui-widget-header {
+    background: #fff none repeat scroll 0 0;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#slider-result {
+color: white;
+text-align:center;
+margin-top: 15px;
+font: 30px sans-serif;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all > span {
+    font: 500 10px "FreeSetBoldC",sans-serif;
+    left: 2px;
+    position: absolute;
+    top: -13px;
+}
